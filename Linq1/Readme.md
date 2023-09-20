@@ -3,6 +3,8 @@
 ## Private GitHub Repo Only
 
 This exercise is based on the Work Schedule database. For this exercise, provide your answers as LinqPad (.linq) document(s) in a single LinqPad document containing all questions (you will need to use Statements as the LinqPad environment). You **must** do a commit after completing each question.
+<br>
+**NOTE:  Any aggregate that return a "null" value MUST be shown as a "0"**
 
 ![Schedule ERD](workschedule_erd_jan2021.png)
 
