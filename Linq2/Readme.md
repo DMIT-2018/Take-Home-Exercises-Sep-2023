@@ -4,8 +4,8 @@
 
 This exercise is based on the Work Schedule database. For this exercise, provide your answers as LinqPad (.linq) document(s). Use either A) a single LinqPad document for each question (you will use Expressions as the LinqPad environment) or B) a single LinqPad document containing all questions (you will need to use Statements as the LinqPad environment). You **must** do a commit after completing each question.
 <br>
-
 **NOTE:  Any aggregate that return a "null" value MUST be shown as a "0"**
+
 
 ![Schedule ERD](workschedule_erd_jan2021.png)
 
@@ -26,9 +26,9 @@ This exercise is based on the Work Schedule database. For this exercise, provide
     ![Employees with top years experience](q4.png)
 
 
-1. For the month of March, list the total earnings per employee along with the number of shifts, the regular earnings, and overtime earnings.
+1. For the month of September, list the total earnings per employee along with the number of shifts, the regular earnings, and overtime earnings.
 
-    **Note 1:** Remember that handling DateTime and TimeSpan calculations is best done in-memory; therefore, you should use a .ToList() in your linq's `from` clause so that the linq query is not converted to SQL.  
+    **Note 1:** Remember that handling DateTime and TimeSpan calculations is best done in-memory; therefore, you should use a .ToList() in your linq's method.  
 
     **Note 2:** When doing your earnings calculations, remember that it's permissible to use method syntax inside of your linq query syntax.
 
