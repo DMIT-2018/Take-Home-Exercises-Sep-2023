@@ -4,6 +4,6 @@
 
 1. [LINQ Part 1](./Linq1/Readme.md)
 1. [LINQ Part 2](./Linq2/Readme.md)
-1. [Transactional Service Method/LINQ](./TRX_Implementation/Readme.md)
+1. [LINQ OLTP](./LINQ-OLTP/Readme.md)
 1. [OLTP Coded Solution](./OLTP_Integrated/Readme.md)
 
