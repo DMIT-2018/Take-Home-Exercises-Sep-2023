@@ -36,18 +36,20 @@ When processing data in the web form and implementing the required service metho
 
 ### Register
 
-- First name, last name, and phone number are mandatory fields.  
-- First and last name can be updated for an existing employee based on phone number.
+- First name, last name, and phone number are mandatory fields. 
+- For a new employee, at least one new valid skill must be added.
+- You may update the skill of an existing employee.  However, all employee information is required.
+- No new skills are required if you are updating employee personal information (First/Last Name) for an existing employee.
 - Active should be set to true.
 - Individuals can possess multiple skills. Each skill selection must adhere to the following:
-  - A "Level" is required.
+  - A valid "Level" is required.
   - "Years of Experience" (YOE) is optional but must meet specific criteria:
     - YOE must be a positive, non-zero integer or null.
     - If YOE is provided, it must fall within the range of 1 to 50 (inclusive).
   - "Hourly Wage" is required and must meet these conditions:
     - Hourly Wage should be a positive, non-zero decimal.
     - Hourly Wage must be within the range of $15.00 to $100.00 (inclusive).
-- When updating an existing employee with a new skill, the phone number will be used to retrieve the existing employee ID.
+
 
 ---
 ## Code:
@@ -61,16 +63,20 @@ void Main()
 	#region Driver  //  3 Marks
 	try
 	{
-		//  Driver for calling method. 
-		//	Testing (Show all test here.  Comment out your code after runnning your tests)
-
-		//	Before new employee and their skills 
-
-		//	After new employee and their skills 
-
-		//	Before adding new skills to an existing employee
-
-		//	After adding new skills to an existing employee
+        //  The driver must, at minimum perform three different task. 
+        //  Task 1
+        //  -   Add a new employee and register their skills (minimun of two skills). 
+        	    
+        	    
+        //  Task 2 update an employee and their skill list. 
+        //  -   Updating their first or last name
+        //  -   Updating one existing skill
+        //  -   adding a minimum of one new skill
+        	    
+        	    
+        //  Task 3 attempts to register new skills with invalid data that will trigger all the business in this exercise
+        //  Refer to business rules for all test cases
+	    
 	}
 	#endregion
 
