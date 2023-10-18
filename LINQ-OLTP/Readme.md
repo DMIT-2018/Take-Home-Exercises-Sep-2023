@@ -160,7 +160,7 @@ public class EmployeeSkillView
 	public int EmployeeID { get; set; }
 	public int SkillID { get; set; }
 	public int Level { get; set; }
-	public int YearsOfExperience { get; set; }
+	public int? YearsOfExperience { get; set; }
 	public decimal HourlyWage { get; set; }
 }
 
