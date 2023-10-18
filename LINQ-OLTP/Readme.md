@@ -15,9 +15,9 @@
 
 ----
 
-## Form Purpose
+## Form Purpose (Reference Only)
 
-The form you are working on is a simple data entry screen designed to allow for adding a new employee or registering new skills for an existing or updating an employee. Additionally, it supports updating an existing employee with a new or existing skill by using the phone number to retrieve the existing employee ID. Please note that there is no ability to remove an existing skills with this form. **If a skill exists and the skill is not selected on the website, the skill is not remove**.  It's important to emphasize that the entire form will be processed as a single transaction (SaveChanges()) in the Business Logic Layer (BLL).
+The image displayed on this page serves as a reference for the task at hand but will not be implemented as code until our next take-home assignment. This simple data entry screen is designed to allow for adding a new employee and their skills, registering new skills for an existing employee, or updating an employee's name using their phone number. Please note that there is no ability to remove an existing skill with this form. **If a skill already exists and is not selected on the website, the skill will not be removed**. It's important to emphasize that the entire form will be processed as a single transaction (SaveChanges()) in the Business Logic Layer (BLL).
 
 <br>
 ----
